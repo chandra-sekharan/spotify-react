@@ -1,0 +1,285 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(24, 23, 23);
+}
+.login{
+    width: 100%;
+    height: 100vh;
+    margin-top: -40px;
+    background-color:black;
+}
+.login img {
+    position: absolute;
+    margin-left: 440px;
+    width: 150px;
+    margin-top: 10px;
+}
+.login h1 {
+  text-align: center;
+  line-height: 120px;
+  font-size: 47px;
+  margin-top: 50px;
+  letter-spacing: 1px;
+  color: white;
+  font-family: Poppins,sans-serif;
+
+}
+.login a {
+    position: relative;
+    width: 80px;
+    padding: 10px 20px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: black;
+    font-size: 18px;
+    color: white;
+    font-family: Poppins,sans-serif;
+    border-radius: 20px;
+    background-color:rgb(7, 155, 52);
+    top: 150px;
+    left:42%;
+}
+
+.login a:hover{
+    top: 153px;
+}
+.login a:focus{
+    background:linear-gradient(to right ,rgb(7, 155, 52),rgb(1, 150, 34));
+}
+.home header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    background-color: rgb(24, 170, 24);
+    z-index: 204;
+}
+.home header img {
+    position: absolute;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 120px;   
+}
+.home header h1{
+    margin-top: 13px;
+    font-family: poppins , sans-serif;
+    font-size: 40px;
+    margin-left: 200px;
+}
+.home header button{
+    float: right;
+    width: 80px;
+    margin-top: -40px;
+    margin-right: 60px;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    height: 40px;
+}
+.home header button:hover{
+    margin-right: 65px;
+}
+.home header button:focus{
+    background-color: white;
+    color: black;
+}
+
+.home .main{
+    width: 100%;
+    height:auto;
+    top:70px;
+    position:absolute;
+    background-color: rgb(24, 23, 23);
+}
+.home .main form{
+    position: relative;
+    top: 25px;
+    margin-left: 440px;
+}
+.main form input[type="text"]{
+    width: 480px;
+    height: 35px;
+    padding: 0px 10px;
+    outline: none;
+}
+.main form button{
+    position: relative;
+    width: 80px;
+    top: 2px;
+    height: 39px;
+    padding: 10px 10px;
+    font-size: 16px;
+    color: black;
+    border: 1.5px solid rgb(40, 224, 64);
+    background-color: rgb(40, 224, 64);
+}
+.card {
+    position: relative;
+    top: 50px;
+    width: 80%;
+    left: 250px;
+    height: 70px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 2px 3px 4px;
+    overflow: hidden;
+    margin-top: 0.5px;
+    display: inline-block;
+}
+.card h3{
+    width: 100%;
+    position: relative;
+    left: 180px;
+    color: white;
+    font-size: 17px;
+    line-height: 50px;
+    font-family: Poppins,sans-serif;
+}
+.card h4 {
+    width: 100%;
+    position: relative;
+    left: 180px;
+    color: rgb(165, 162, 162);
+    margin-top: -20px;
+    font-size: 14px;
+    line-height: 50px;
+    font-family: Poppins,sans-serif;
+}
+.card button{
+    position: relative;
+    width: 33px;
+    height: 35px;
+    border-radius: 60px;
+    top: -60px;
+    margin-left: 40px;
+    border: 1px;
+}
+.card img {
+    width: 35px;
+    background-color: white;
+    border-radius: 30px;
+}
+.empty {
+    top: -80px;
+    height: 140px;
+    position: relative;
+    width: 100px;
+}
+.bottom{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 65px;
+    height: 40px;
+    text-align: center;
+}
+/*************************player customize*********************************/
+.rhap_container{
+    background-color: black !important;
+}
+.rhap_current-time{
+  color: rgba(255, 255, 255, 0.993) !important;
+}
+.rhap_total-time{
+    color: white !important;
+}
+.rhap_repeat_button{
+    color: white !important;
+}
+.rhap_progress-filled{
+    background-color: rgb(11, 174, 238) !important;
+}
+svg  path {
+    fill: rgb(208, 221, 221) !important;
+}
+.poster img {
+    width: 170px;
+    margin-top: -180px;
+    margin-left: -1100px;
+}
+
+
+
+/***************************Media queries**************************/
+@media only screen and (max-width:600px){ 
+    .login img{
+        width: 100px;
+        margin-top: 25px;
+        margin-left: 16px;
+        overflow: hidden;
+    }
+    .login a{
+    left: 23%;
+    }
+    .login h1 {
+        margin-left: 44px;
+        font-size: 30px;
+    }
+    .home header{
+        width: 100%;
+    } 
+    .home header img{
+        margin-left: 10px;
+    }
+    .home header h1{
+        margin-left: 70px;
+    }
+    .home header button{
+        position: relative;
+        width: 45px;
+        height: 40px;
+        left: 41px;
+    }
+    .home .main{
+        width: 35%;
+    }
+    .home .main form{
+       margin-left: 0;
+    }
+    .home form input[type="text"]{
+        position: relative;
+        left:20px;
+        width:200px ;
+    }
+    .home form button {
+        width: 55px;
+        font-size: 13px;
+        height: 39px;
+        position: relative;
+        top: -39px;
+        left: 230px;
+    }
+    .rhap_container{
+        background-color: black !important;
+        width:100% !important;
+    }
+    .bottom{
+        width: 100%;
+    }
+    .empty{
+        height: 140px;
+    }
+    .card {
+        width: 230%;
+        position: relative;
+        top: 10px;
+        left: 30px;
+    }
+    .card h3 {
+        font-size: 12px;
+        margin-left: -90px;
+    }
+    .card h4 {
+        position: relative;
+        margin-left: -90px;
+        top: -5px;
+        font-size: 13px;
+    }
+    .card button{
+        margin-left: 15px;
+    }
+}
