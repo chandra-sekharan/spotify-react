@@ -3,3 +3,6 @@ Authentication spotify
 using React js
 
 [project-preview](https://spotify-react-cs.herokuapp.com/)
+
+**********************************************************************************
+![alt-text](https://github.com/chandra-sekharan/spotify-react/blob/master/spot.PNG)
