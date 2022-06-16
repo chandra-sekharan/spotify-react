@@ -6,3 +6,6 @@ using React js
 
 **********************************************************************************
 ![alt-text](https://github.com/chandra-sekharan/spotify-react/blob/master/spot.PNG)
+
+***********************************************************************************
+![alt-text](https://github.com/chandra-sekharan/spotify-react/blob/master/spot1.PNG)
